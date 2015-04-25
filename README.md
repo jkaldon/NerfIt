@@ -19,9 +19,7 @@ You need to install the following libraries:
 ### Todo's
 
  - Write Tests
- - Rethink Github Save
- - Add Code Comments
- - Add Night Mode
+ - Add facial following code
 
 License
 ----

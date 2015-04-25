@@ -1,0 +1,27 @@
+<!--Pololu Maestro servo controller settings file, http://www.pololu.com/catalog/product/1350-->
+<UscSettings version="1">
+  <NeverSuspend>true</NeverSuspend>
+  <SerialMode>UART_FIXED_BAUD_RATE</SerialMode>
+  <FixedBaudRate>9600</FixedBaudRate>
+  <SerialTimeout>0</SerialTimeout>
+  <EnableCrc>true</EnableCrc>
+  <SerialDeviceNumber>12</SerialDeviceNumber>
+  <SerialMiniSscOffset>0</SerialMiniSscOffset>
+  <Channels ServosAvailable="3" ServoPeriod="250">
+    <!--Period = 16 ms-->
+    <!--Channel 0-->
+    <Channel name="pan" mode="Servo" min="3968" max="9300" homemode="Goto" home="6634" speed="12" acceleration="2" neutral="6600" range="1905" />
+    <!--Channel 1-->
+    <Channel name="tilt" mode="Servo" min="4672" max="5888" homemode="Goto" home="5280" speed="15" acceleration="2" neutral="5500" range="1905" />
+    <!--Channel 2-->
+    <Channel name="fire" mode="Servo" min="1984" max="8000" homemode="Goto" home="8000" speed="0" acceleration="0" neutral="8000" range="1905" />
+    <!--Channel 3-->
+    <Channel name="unused1" mode="Output" min="3968" max="8000" homemode="Ignore" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+    <!--Channel 4-->
+    <Channel name="unused2" mode="Output" min="3968" max="8000" homemode="Ignore" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+    <!--Channel 5-->
+    <Channel name="unused3" mode="Output" min="3968" max="8000" homemode="Ignore" home="3968" speed="0" acceleration="0" neutral="6000" range="1905" />
+  </Channels>
+  <Sequences />
+  <Script ScriptDone="true" />
+</UscSettings>

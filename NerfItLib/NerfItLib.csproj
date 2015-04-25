@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1D529859-8DEB-4332-B6C5-597C99C2B266}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NerfItLib</RootNamespace>
+    <AssemblyName>NerfItLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <GenerateDocumentation>true</GenerateDocumentation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <DebugSymbols>true</DebugSymbols>
+    <GenerateDocumentation>true</GenerateDocumentation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Usc, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Usc.dll</HintPath>
+    </Reference>
+    <Reference Include="UsbWrapper, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>UsbWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Sequencer, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Sequencer.dll</HintPath>
+    </Reference>
+    <Reference Include="Bytecode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bytecode.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI, Version=2.3.0.1410, Culture=neutral, PublicKeyToken=7281126722ab4438">
+      <Package>emgucv-x64-tbb</Package>
+    </Reference>
+    <Reference Include="Emgu.CV, Version=2.3.0.1410, Culture=neutral, PublicKeyToken=7281126722ab4438">
+      <Package>emgucv-x64-tbb</Package>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Gun.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

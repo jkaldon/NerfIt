@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerfItWeb", "NerfItWeb\NerfItWeb.csproj", "{6AF804E7-ED8B-437D-A871-31F997CD2D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerfItLib", "NerfItLib\NerfItLib.csproj", "{1D529859-8DEB-4332-B6C5-597C99C2B266}"
+EndProject
+Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "NerfItUnitTests", "NerfItUnitTests\NerfItUnitTests.mdproj", "{B7ECDF40-CC5C-4BA3-975B-F69D5E6ADD10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerfItCli", "NerfItCli\NerfItCli.csproj", "{94B66BFF-9C39-48AB-9644-7F097A0A6554}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D529859-8DEB-4332-B6C5-597C99C2B266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D529859-8DEB-4332-B6C5-597C99C2B266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D529859-8DEB-4332-B6C5-597C99C2B266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D529859-8DEB-4332-B6C5-597C99C2B266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF804E7-ED8B-437D-A871-31F997CD2D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF804E7-ED8B-437D-A871-31F997CD2D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF804E7-ED8B-437D-A871-31F997CD2D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF804E7-ED8B-437D-A871-31F997CD2D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B66BFF-9C39-48AB-9644-7F097A0A6554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B66BFF-9C39-48AB-9644-7F097A0A6554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B66BFF-9C39-48AB-9644-7F097A0A6554}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B66BFF-9C39-48AB-9644-7F097A0A6554}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{94B66BFF-9C39-48AB-9644-7F097A0A6554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B66BFF-9C39-48AB-9644-7F097A0A6554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7ECDF40-CC5C-4BA3-975B-F69D5E6ADD10}.Debug|Any CPU.ActiveCfg = Default|Any CPU
+		{B7ECDF40-CC5C-4BA3-975B-F69D5E6ADD10}.Debug|Any CPU.Build.0 = Default|Any CPU
+		{B7ECDF40-CC5C-4BA3-975B-F69D5E6ADD10}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{B7ECDF40-CC5C-4BA3-975B-F69D5E6ADD10}.Default|Any CPU.Build.0 = Default|Any CPU
+		{B7ECDF40-CC5C-4BA3-975B-F69D5E6ADD10}.Release|Any CPU.ActiveCfg = Default|Any CPU
+		{B7ECDF40-CC5C-4BA3-975B-F69D5E6ADD10}.Release|Any CPU.Build.0 = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = NerfItWeb\NerfItWeb.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 120
+		$1.TabWidth = 2
+		$1.RemoveTrailingWhitespace = True
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 2
+		$3.RemoveTrailingWhitespace = True
+		$3.inheritsSet = VisualStudio
+		$3.inheritsScope = text/plain
+		$3.scope = application/config+xml
+		$0.XmlFormattingPolicy = $4
+		$4.inheritsSet = null
+		$4.scope = application/config+xml
+		$0.TextStylePolicy = $5
+		$5.FileWidth = 120
+		$5.TabWidth = 2
+		$5.RemoveTrailingWhitespace = True
+		$5.inheritsSet = VisualStudio
+		$5.inheritsScope = text/plain
+		$5.scope = application/xml
+		$0.XmlFormattingPolicy = $6
+		$6.inheritsSet = Mono
+		$6.inheritsScope = application/xml
+		$6.scope = application/xml
+		$0.TextStylePolicy = $7
+		$7.FileWidth = 120
+		$7.TabWidth = 2
+		$7.RemoveTrailingWhitespace = True
+		$7.inheritsSet = VisualStudio
+		$7.inheritsScope = text/plain
+		$7.scope = application/x-aspx
+		$0.TextStylePolicy = $8
+		$8.FileWidth = 120
+		$8.TabWidth = 2
+		$8.RemoveTrailingWhitespace = True
+		$8.inheritsSet = VisualStudio
+		$8.inheritsScope = text/plain
+		$8.scope = application/x-asax
+	EndGlobalSection
+EndGlobal
